@@ -21,6 +21,7 @@ class Triangle
     else 
     :scalene
   end
+end
     
     def violation?
       no_violation = [(a + b > c), (a + c > b),(b + c > a)]
