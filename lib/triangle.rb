@@ -20,6 +20,7 @@ class Triangle
     :isosceles
     else 
     :scalene
+  end
     
     def violation?
       no_violation = [(a + b > c), (a + c > b),(b + c > a)]
