@@ -27,7 +27,7 @@ class Triangle
     raise TriangleError if no_violation.include?(false)
   end
     
-    Class TriangleError < StandardError
+    class TriangleError < StandardError
 end
 
 end
