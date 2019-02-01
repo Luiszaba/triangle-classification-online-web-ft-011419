@@ -11,7 +11,7 @@ class Triangle
   
   def kind 
     if @a==0 || @a+@b<=@c|| @b+@c<=@a || @a+@c<=@b
-      raise TriangelError
+      raise TriangleError
     elsif
     @a==@b && @b==@c
     :equilateral
